@@ -1,0 +1,13 @@
+.mainHeading{
+    text-align: center;
+    font-size: 25px;
+    color:red;
+}
+.mainLabel{
+    font-size: 25px;
+    
+}
+
+body{
+         background-image:url("c:\Users\Kristal\Desktop\node\form\src\assets\TVOD_MLP_Right.jpg");
+}
