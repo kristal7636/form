@@ -1,13 +1,51 @@
 .mainHeading{
     text-align: center;
-    font-size: 25px;
-    color:red;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    margin: 25px;
+}
+.mainContainer{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+
+.mainForm{
+    background-color: (0,0,0,0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 12px;
+    border: 2px solid #fff;
+    padding: 50px;
 }
 .mainLabel{
     font-size: 25px;
-    
+    color: white;
+}
+.maininput{
+
+    width: 300px;
+
+
+}
+.formbox{
+    margin: 40px;
 }
 
+
 body{
-         background-image:url("c:\Users\Kristal\Desktop\node\form\src\assets\TVOD_MLP_Right.jpg");
+    background-image: url(
+        C:\Users\Kristal\Desktop\node\form\src\assets\pg.jpg);
+}
+
+.formBox{
+    margin: 40px;
+}
+.mainbutton{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    margin: 10px 0px 0px 50px;
+    border-radius: 12px;
+    color: #111;
 }

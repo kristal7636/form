@@ -5,7 +5,7 @@ import Mainform from "./components/mainform/Mainform";
 
 function App() {
   return (
-    <div className="App">
+    <div>
      {/* <Form/> */}
     <Mainform/>
     </div>

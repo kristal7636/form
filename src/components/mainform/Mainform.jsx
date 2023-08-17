@@ -7,16 +7,19 @@ const Mainform = () => {
         <div className="mainContainer">
             <div className="mainForm">
                 <h1 className="mainHeading">Regestration Form</h1>
-                <form>
+                <form className="formbox">
                     <label className="mainLabel">First Name:</label>
-                    <input type="text" name="firstname" /><br/>
+                    <input   className="maininput"type="text" name="firstname" /><br/>
                     <label className="mainLabel">last Name:</label>
-                    <input type="text" name="lastname"/><br/>
+                    <input   className="maininput" type="text" name="lastname"/><br/>
                     <label className="mainLabel">Email:</label>
-                    <input type="text" name="Email" /><br/>
+                    <input   className="maininput" type="Email" name="Email" /><br/>
                     <label className="mainLabel">phone:</label>
-                    <input type="text" name="phone" />
-
+                    <input  className="maininput" type="phone" name="phone"/>
+                    <br/>
+                    <button  className="mainbutton" type= "button"  value="submit">submit</button>
+                    
+                   
                 </form>
             </div>
         </div>
