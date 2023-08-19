@@ -49,3 +49,11 @@ body{
     border-radius: 12px;
     color: #111;
 }
+.ErrorMessege{
+    color: red;
+    font-size: 20PX;
+}
+.Success{
+        color: green;
+        font-size: 20px;
+}
